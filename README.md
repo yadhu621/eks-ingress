@@ -57,7 +57,7 @@ nano /usr/share/nginx/html/index.html # and amend the content
 sed -i s/nginx/sampleapp/g /usr/share/nginx/html/index.html
 ```
 Access EXTERNAL-URL again. You should see the new content.
-```
+
 6. Install ingress controller
 ```
 helm repo add nginx-stable https://helm.nginx.com/stable
