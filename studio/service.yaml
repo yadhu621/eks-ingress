@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: studio-svc
+  namespace: studio
+spec:
+  selector:
+    app: studio
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
