@@ -172,3 +172,7 @@ PING a8cb8806fc7fe4028bf0103f38287122-755455926.eu-west-2.elb.amazonaws.com (18.
 16. Access the studio app from your browser by typing studio.myborlingstudio.com
 Follow the logs of the ingress controller
 
+17. Delete the cluster
+```
+eksctl delete cluster --name my-eks-cluster
+```
