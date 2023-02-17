@@ -36,7 +36,7 @@ kubernetes      ClusterIP      10.100.0.1      <none>                           
 sampleapp-svc   LoadBalancer   10.100.123.96   a17114cf8f43446e7a273783c223bcfe-986239722.eu-west-2.elb.amazonaws.com   80:32053/TCP   7s
 ```
 4. Access sampleapp
-```
+
 Paste the EXTERNAL-URL in the browser. ( You should see Welcome to nginx! )
 a17114cf8f43446e7a273783c223bcfe-986239722.eu-west-2.elb.amazonaws.com
 
